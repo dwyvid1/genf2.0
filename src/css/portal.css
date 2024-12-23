@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    color: black;
+    text-shadow: 1px 1px 3px gray;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.power-button {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+.search-fields {
+    display: flex;
+    gap: 10px;
+}
+
+.search-fields input,
+.search-button {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.search-button:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #0e7cf4;
+}
+
+table {
+    width: 100%;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+thead th {
+    text-align: left;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    color: black;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+input[type="file"] {
+    font-size: 0.9em;
+}
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+}
