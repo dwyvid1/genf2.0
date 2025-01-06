@@ -15,22 +15,22 @@
     <div class="login-container">
         <h2>Login</h2>
         <p>Entre com os dados da sua loja</p>
-        <form>
-            <label for="username">Usuário</label>
-            <input type="text" id="username" placeholder="Usuário da loja">
 
-            <label for="password">Senha</label>
-            <input type="password" id="password" placeholder="Senha">
+        <form action="/src/pages/portal.html" id="form_autent" method="post">
+            <label>Usuário</label>
+            <input type="text" id="user" placeholder="Usuário da loja" id="usu" name="usuario" required>
 
-            <label for="store">Loja</label>
-            <input type="number" id="store" placeholder="Numeração da Loja">
+            <label>Senha</label>
+            <input type="password" id="sen" placeholder="Senha" name="senha"  required>
 
-            <a href="/src/pages/portal.html">
-               Entrar
-            </a>
+            <label>Loja</label>
+            <input type="text" id="lj" placeholder="Numeração da Loja" name="numeroLoja" size='10' value='' onkeypress='return SomenteNumero(event)' required>
+            
+            <button type="submit" id="envio"  onclick="validar()" class="entrar">Entrar</button>
         </form>
-    </div>
-</body>
 
-<footer></footer>
+    </div>
+
+    <script type="text/javascript" src="/src/JavaScript/script.js"></script>
+</body>
 </html>

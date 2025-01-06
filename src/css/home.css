@@ -65,7 +65,7 @@ body {
     font-size: 14px;
 }
 
-.login-container a {
+button {
     display: inline-block;
 
     background-color: #0aa0f6;
@@ -79,6 +79,6 @@ body {
     width: 50%;
 }
 
-.login-container a:hover {
+button:hover {
     background-color: #0e7cf4;
 }
