@@ -31,11 +31,13 @@ a {
     text-decoration: none;
 }
 
+.div-container {
+    align-items: center;
+}
+
 .div-container h1 {
     font-family: "DM Serif Text", serif;
     font-size: 3rem;
-
-    margin-bottom: -5px;
 }
 
 .logo {
@@ -115,4 +117,45 @@ footer {
     padding-bottom: 30px;
     
     background-color: #FFFF00;
+}
+
+@media (max-width: 1000px) {
+    header a{
+        font-size: 1rem;
+    }
+
+    .div-container h1 {
+        font-size: 2.5rem;
+    }    
+
+    .login-container p, 
+    .login-container label {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 650px) {
+    header a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .div-container h1 {
+        font-size: 2em
+    }
+
+   .login-container {
+        width: 300px;
+   }
+}
+
+@media (max-width: 465px) {
+    header a {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .login-container {
+         width: 250px;
+    }
 }
