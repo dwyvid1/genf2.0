@@ -32,12 +32,18 @@ a {
 }
 
 .div-container {
-    align-items: center;
+  justify-items: center;
 }
 
 .div-container h1 {
     font-family: "DM Serif Text", serif;
     font-size: 3rem;
+}
+
+.div-container h2 {
+    margin-top: -20px;
+    font-size: 2.5rem;
+    font-family: "DM Serif Text", serif;
 }
 
 .logo {
@@ -141,7 +147,11 @@ footer {
     }
 
     .div-container h1 {
-        font-size: 2em
+        font-size: 2.5em
+    }
+
+    .div-container h2 {
+        font-size: 1.7rem;
     }
 
    .login-container {
