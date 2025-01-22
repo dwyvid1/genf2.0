@@ -35,40 +35,37 @@ a {
     color: white;
 }
 
+.div-container {
+    text-align: center; /* Centraliza o conteúdo textual, como o H1 */
+    width: 100%;
+}
+
+.div-container img {
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    display: block; /* Remove espaços adicionais ao tratar a imagem como um bloco */
+    border-radius: 15px;
+    width: 600px;
+}
+
 .div-container h1 {
     font-family: "DM Serif Text", serif;
-    font-size: 3rem;
 }
 
-.div-container h2 {
-    margin-top: -20px;
-    font-size: 2.5rem;
-    font-family: "DM Serif Text", serif;
-}
-
-.logo {
-    text-align: center;   
-}
-
-.logo img {
-    width: 250px;
-}
-
-.div-sobre {
+.div-historia {
     width: 80%;
     max-width: 1300px;
     padding: 20px;
     text-align: justify;
 }
 
-.div-sobre h1 {
+.div-historia h1 {
     font-size: 2rem;
     margin-left: 50px;
 
     font-family: "DM Serif Text", serif;
 }
 
-.div-sobre h2 {
+.div-historia h2 {
     margin-left: 50px;
     font-family: "DM Serif Text", serif;
 }
@@ -95,16 +92,19 @@ footer {
 }
 
 @media (max-width: 800px) {
-    .div-container h1, h2 {
-        font-size: 2rem;
+    .div-container img {
+        width: 450px;
     }
 
-    .div-sobre h1, .div-sobre h2{
+    .div-container h1 {
+        font-size: 1.7rem;
+    }
+
+    .div-historia h1 {
         margin-left: 25px;
         font-size: 1.5rem;
 
         width: 85%;
-
     }
 
     p, a {
@@ -115,15 +115,19 @@ footer {
 }
 
 @media (max-width: 600px) {
-    .div-container h1, .div-container h2 {
+    .div-container img {
+        width: 350px;
+    }
+
+    .div-container h1 {
         font-size: 1.5rem;
     }
 
-    .div-sobre {
+    .div-historia {
         width: 95%;
     }
 
-    .div-sobre h1, h2{
+    .div-historia h1, h2{
         font-size: 1.5rem;
     }
 
