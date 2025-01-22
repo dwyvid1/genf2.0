@@ -1,22 +1,33 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notas Fiscais - GENF 2.0</title>
     <link rel="shortcut icon" href="/src/img/genf2.0-favicon.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="/src/css/portal.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
     <header>
+        <p>GENF 2.0</p>
+
+        <a href="/src/index.html">
+            Voltar
+            <i class="fa-solid fa-right-from-bracket"></i>
+        </a>
     </header>
 
     <div class="container">
 
         <section class="info">
-            <h2>Loja: <span>28 - Asa Branca</span></h2>
-            <button class="power-button">🔄</button>
+            <h2>Loja <span></span></h2>
         </section>
 
         <section class="search">
@@ -32,10 +43,8 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Loja</th>
-                        <th>Nota</th>
-                        <th>Serie NF</th>
-                        <th>Emissao</th>
+                        <th>NF</th>
+                        <th>Data</th>
                         <th>Valor</th>
                         <th>Fornecedor</th>
                         <th>CGO</th>
@@ -45,59 +54,7 @@
                         <th>Selecionar</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>28</td>
-                        <td>15000</td>
-                        <td>001</td>
-                        <td>20/12/2024</td>
-                        <td>46.1</td>
-                        <td>1514</td>
-                        <td>141</td>
-                        <td>KATALIMA</td>
-                        <td>❌</td>
-                        <td>🔄</td>
-                        <td>
-                            <input type="file">
-                            <button>Ok</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>28</td>
-                        <td>15001</td>
-                        <td>001</td>
-                        <td>20/12/2024</td>
-                        <td>434.2</td>
-                        <td>457750</td>
-                        <td>107</td>
-                        <td>KATALIMA</td>
-                        <td>❌</td>
-                        <td>🔄</td>
-                        <td>
-                            <input type="file">
-                            <button>Ok</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>28</td>
-                        <td>15007</td>
-                        <td>001</td>
-                        <td>20/12/2024</td>
-                        <td>261.24</td>
-                        <td>56807</td>
-                        <td>141</td>
-                        <td>9471</td>
-                        <td>✔</td>
-                        <td>🔽</td>
-                        <td>
-                            <input type="file">
-                            <button>Ok</button>
-                        </td>
-                    </tr>
-                </tbody>
             </table>
         </section>
-    </div>
-    <script src="/src/JavaScript/script.js"></script>
 </body>
 </html>
