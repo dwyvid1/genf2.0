@@ -24,37 +24,65 @@
         </a>
     </header>
 
+    <div class="div-container" >
+        <h1>PORTAL DE NOTAS FISCAIS</h1>
+    
+        <div class="logo">
+            <img src="/src/img/logo.jpg" alt="Logo Arco-Mix">
+        </div>        
+    </div> 
+
     <div class="container">
+        <h1>PESQUISAR NOTA FISCAL</h1>
+        <div class="search-bar">
+            <input type="date">
+            <input type="date">
+            <button>Pesquisar</button>
+        </div>
 
-        <section class="info">
-            <h2>Loja <span></span></h2>
-        </section>
-
-        <section class="search">
-            <h3>Pesquisar</h3>
-            <div class="search-fields">
-                <input type="date" placeholder="dd/mm/aaaa">
-                <input type="date" placeholder="dd/mm/aaaa">
-                <button class="search-button">Pesquisar</button>
-            </div>
-        </section>
-
-        <section class="table-section">
+        <div class="table-container">
             <table>
                 <thead>
                     <tr>
-                        <th>NF</th>
-                        <th>Data</th>
+                        <th>Loja</th>
+                        <th>Nota</th>
+                        <th>Série NF</th>
+                        <th>Emissão</th>
                         <th>Valor</th>
                         <th>Fornecedor</th>
                         <th>CGO</th>
-                        <th>Usuario</th>
+                        <th>Usuário</th>
                         <th>Status</th>
                         <th>Download</th>
                         <th>Selecionar</th>
                     </tr>
                 </thead>
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td>0001</td>
+                        <td>001</td>
+                        <td>22/01/2025</td>
+                        <td>46.1</td>
+                        <td>1514</td>
+                        <td>141</td>
+                        <td>TESTE</td>
+                        <td><span class="status-icon red">&#10060;</span></td>
+                        <td><span class="download-icon">&#9733;</span></td>
+                        <td class="upload-button">
+                            <label for="file1" class="upload-label">Escolher arquivo</label>
+                            <input type="file" id="file1">
+                            <button class="upload-ok">Ok</button>
+                        </td>
+                    </tr>
+                </tbody>
             </table>
-        </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright © Genf 2.0</p>
+        <p>Deyvid Matheus, 2025</p>
+    </footer>
 </body>
 </html>

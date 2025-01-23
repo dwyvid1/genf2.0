@@ -198,6 +198,12 @@ footer {
     background-color: #FFFF00;
 }
 
+@media (max-width: 1000px) {
+    footer p {
+        font-size: 1rem;
+    }
+}
+
 @media (max-width: 700px) {
     header a, header p {
         margin-left: 25px;

@@ -114,6 +114,12 @@ footer {
     }
 }
 
+@media (max-width: 1000px) {
+    footer p {
+        font-size: 1rem;
+    }
+}
+
 @media (max-width: 600px) {
     .div-container img {
         width: 350px;
