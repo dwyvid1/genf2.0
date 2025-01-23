@@ -9,11 +9,12 @@ O Genf 2.0 é um projeto que busca aprimorar a experiência visual dos usuários
 
 ## Tecnologias :rocket:
 
-O projeto foi criado com as espectivas tecnologas abaixo:
+O projeto foi criado com as respectivas tecnologas abaixo:
 
 - HTML
 - CSS
 - JavaScript
+- Font Awesome
 
 <p align="center">
   Criado com amor 💙 por Deyvid Matheus
