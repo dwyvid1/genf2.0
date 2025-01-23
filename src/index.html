@@ -17,28 +17,17 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+</head>
 <body>
     <header>
-        <a href="/src/pages/nossaHistoria.html">
-            Nossa História
-            <i class="fa-solid fa-hand-holding-heart"></i>
-        </a>
-
-        <a href="/src/pages/sobre.html">
-            Sobre
-            <i class="fa-solid fa-lightbulb"></i>
-        </a>
-
-        <a href="/src/pages/contato.html">
-            Contato
-            <i class="fa-solid fa-user"></i>
-        </a>    
+        <a href="/src/pages/nossaHistoria.html">Nossa História <i class="fa-solid fa-hand-holding-heart"></i></a>
+        <a href="/src/pages/sobre.html">Sobre <i class="fa-solid fa-lightbulb"></i></a>
+        <a href="/src/pages/contato.html">Contato <i class="fa-solid fa-user"></i></a>    
     </header>
 
-    <div class="div-container" >
+    <div class="div-container">
         <h1>GENF 2.0</h1>
         <h2>PORTAL DE NOTAS FISCAIS</h2>
-    
         <div class="logo">
             <img src="img/logo.jpg" alt="Logo Arco-Mix">
         </div>        
@@ -48,24 +37,25 @@
         <h2>Login</h2>
         <p>Entre com os dados da sua loja</p>
 
-        <form method="post">
-            <label>Usuário</label>
-            <input type="text" placeholder="Usuário da loja" required>
+        <form id="loginForm">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" placeholder="Usuário da loja" required>
 
-            <label>Senha</label>
-            <input type="password" placeholder="Senha"  required>
+            <label for="password">Senha</label>
+            <input type="password" id="password" placeholder="Senha" required>
 
-            <label>Loja</label>
-            <input type="text" placeholder="Numeração da Loja" required>
+            <label for="store">Loja</label>
+            <input type="text" id="store" placeholder="Numeração da Loja" required>
             
             <button type="submit" class="entrar">Entrar</button>
         </form>
-
     </div>
 
     <footer>
         <p>Copyright © Genf 2.0</p>
         <p>Deyvid Matheus, 2025</p>
     </footer>
+
+    <script src="/src/JavaScript/script.js"></script>
 </body>
 </html>
