@@ -21,7 +21,7 @@ document.getElementById('loginForm').addEventListener('submit', (e) => {
     );
 
     if (validUser) {
-        window.location.href = '/src/pages/portal.html';
+        window.location.href = './pages/portal.html';
     } else {
         alert('Usuário ou senha inválidos!');
     }
