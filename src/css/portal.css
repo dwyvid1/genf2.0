@@ -243,6 +243,8 @@ footer {
 @media (max-width: 400px) {
     .div-container h1 {
         font-size: 1.3rem;
+
+        align-items: center;
     }
 
     p, a {
