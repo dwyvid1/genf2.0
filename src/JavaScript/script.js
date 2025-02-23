@@ -1,5 +1,5 @@
-// Cadastro das 20 lojas
-const validStores = Array.from({ length: 20 }, (_, i) => {
+// Cadastro das lojas
+const validStores = Array.from({ length: 31 }, (_, i) => {
     const num = (i + 1).toString().padStart(2, '0');
     return {
         username: `LOJA${num}`,
@@ -8,7 +8,7 @@ const validStores = Array.from({ length: 20 }, (_, i) => {
     };
 });
 
-// Manipulação do formulário de login
+// Login
 document.getElementById('loginForm').addEventListener('submit', (e) => {
     e.preventDefault();
 
